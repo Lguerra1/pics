@@ -7,7 +7,6 @@ export default class SearchBar extends Component {
 
     onFormSubmit = (event) => {
         event.preventDefault(); //stops the page from refreshing
-
         this.props.onSubmit(this.state.term)
     }
 
